@@ -1,0 +1,7 @@
+.languages__lang {
+    margin-right: 18px;
+}
+
+.languages__lang:last-child {
+    margin-right: 0;
+}
