@@ -22,7 +22,7 @@
 @media screen and (max-width: 320px) {
     .intro {
         width: 288px;
-        height: 841px;
+        min-height: 841px;
         padding: 0 16px;
     }
 }
