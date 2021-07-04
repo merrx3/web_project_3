@@ -1,5 +1,11 @@
 @media screen and (max-width: 1024px) {
-    .header {
+    .container {
         padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 16px;
     }
 }

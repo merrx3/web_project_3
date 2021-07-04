@@ -1,12 +1,28 @@
 .cover {
     margin: 92px 48px;
-    min-width: 1184px;
+    width: 1184px;
     z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 1024px;
+        width: 1024px;
         margin: 92px 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 768px;
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 320px;
+        height: 200px;
+        margin: 64px 0;
     }
 }

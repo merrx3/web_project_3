@@ -5,3 +5,7 @@
     text-decoration: none;
     font-family: "Inter";
 }
+
+.languages__link:hover {
+    opacity: 0.8;
+}

@@ -2,5 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 92px 48px 24px 48px;
+    margin: 92px 0 24px 0;
+    box-sizing: border-box;
+    padding: 0 48px;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        width: 165px;
+        height: 198px;
+        margin: 64px 0 24px 16px;
+        flex-direction: column;
+        box-sizing: none;
+        padding: 0;
+    }
 }
