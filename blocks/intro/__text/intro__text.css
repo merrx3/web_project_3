@@ -1,5 +1,4 @@
 .intro__text {
-    width: 690px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -13,6 +12,5 @@
     .intro__text{
         font-size: 16px;
         line-height: 26px;
-        width: 288px;
     }
 }
