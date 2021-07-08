@@ -1,5 +1,4 @@
 .cover__route {
-    width: 1184px;
     height: 740px;
     display: flex;
     flex-direction: column;
@@ -30,21 +29,18 @@
 
   @media screen and (max-width: 1024px) {
     .cover__route {
-      width: 1024px;
       height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
   .cover__route {
-    width: 768px;
     height: 480px;
   }
 }
 
   @media screen and (max-width: 320px) {
     .cover__route {
-      width: 320px;
       height: 200px;
     }
 }
