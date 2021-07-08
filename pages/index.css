@@ -25,7 +25,6 @@
 @import url(../blocks/photo-grid/__layout/photo-grid__layout.css);
 @import url(../blocks/photo-grid/__gallery/photo-grid__gallery.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
-@import url(../blocks/container-grid/container-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/places/__place/places__place.css);

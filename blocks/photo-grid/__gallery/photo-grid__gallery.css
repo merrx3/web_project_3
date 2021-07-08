@@ -8,3 +8,27 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__gallery {
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(4, 225px);
+        grid-column-gap: 14px;
+        grid-row-gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__gallery  {
+        grid-template-columns: repeat(2, 352px);
+        grid-template-rows: repeat(6, 264px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__gallery {
+        grid-template-columns: repeat(1, 288px);
+        grid-template-rows: repeat(12, 216px);
+        grid-row-gap: 12px;
+    }
+}

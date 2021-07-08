@@ -1,5 +1,6 @@
 .cover__route {
-    min-height: 740px;
+    width: 1184px;
+    height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,9 +28,23 @@
     opacity: 0.8;
   }
 
+  @media screen and (max-width: 1024px) {
+    .cover__route {
+      width: 1024px;
+      height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__route {
+    width: 768px;
+    height: 480px;
+  }
+}
+
   @media screen and (max-width: 320px) {
     .cover__route {
-        width: 320px;
-        min-height: 200px;
+      width: 320px;
+      height: 200px;
     }
 }
