@@ -1,4 +1,4 @@
-.place {
+.places__place {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, auto);
@@ -11,22 +11,26 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place {
+    .places__place {
         column-gap: 40px;
     }
   }
 
 @media screen and (max-width: 768px) {
-    .place {
+    .places__place {
         column-gap: 28px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place {
+    .places__place {
         display: flex;
         flex-wrap: wrap;
-        margin: 0;
+        margin: 48px 0 0 0;
         row-gap: 30px;
+    }
+
+    .places__place:first-child {
+        margin: 0;
     }
 } 
