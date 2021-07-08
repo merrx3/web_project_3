@@ -9,5 +9,6 @@
     .places__website{
         margin: 0 16px;
         order: 2;
+        width: 288px;
     }
 }
