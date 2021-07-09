@@ -15,7 +15,7 @@
        max-width: 352px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .places__description {
         width: 288px;
         order: 4;

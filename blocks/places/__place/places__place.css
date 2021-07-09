@@ -22,11 +22,18 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .places__place {
         display: flex;
         flex-wrap: wrap;
         margin: 48px 0 0 0;
+        padding: 0 0 0 48px;
         row-gap: 30px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .places__place {
+        padding: 0;
     }
 } 
