@@ -1,20 +1,16 @@
-# Project 3: From Portland to Portland
+# Practicum Web Dev bootcamp Project 3: From Portland to Portland
 
 ### Overview
 * Intro
-* Figma
-* Images
+* Links
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US. The project is made so all the elements are displayed correctly on popular screen sizes. The project included newly learned CSS techniques such as importing font-families, and grid layout. Other new techniques used were importing font families and rendering images.
 
-**Figma**
+**Links**
 
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
-**Images**
+* [Link to the project on github pages](https://merrx3.github.io/web_project_3/)
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
