@@ -21,7 +21,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         margin: 48px 0 0 0;
         padding: 0;
         row-gap: 30px;
@@ -32,5 +32,6 @@
     .places__place {
         padding: 0;
         justify-content: end;
+        align-items: start;
     }
 } 
