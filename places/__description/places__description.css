@@ -1,0 +1,24 @@
+.places__description {
+    grid-area: description;
+    max-width: 484px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__description {
+        max-width: 456px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__description {
+       max-width: 352px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .places__description {
+        width: 288px;
+        order: 4;
+        margin: 0 16px;
+    }
+}
