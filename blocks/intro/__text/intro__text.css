@@ -1,5 +1,5 @@
 .intro__text {
-    width: 100%;
+    max-width: 690px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -9,16 +9,21 @@
     margin: 32px 0 0 0;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
+    .intro__text{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 725px) {
     .intro__text{
         line-height: 30px;
-        max-width: 100%;
+        max-width: 500px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__text{
-        line-height: 26px;
-        max-width: 100%;
+        max-width: 288px;    
     }
 }
