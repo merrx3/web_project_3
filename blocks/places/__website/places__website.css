@@ -10,5 +10,15 @@
         margin: 0 16px;
         order: 2;
         width: 148px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__website{
+        margin: 0 16px;
+        order: 2;
+        width: 148px;
+        align-self: end;
     }
 }
